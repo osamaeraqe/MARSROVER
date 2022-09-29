@@ -13,30 +13,24 @@ public class Execution implements BaseExecution {
     public Execution() {
     }
 
-    private int x, y;
-    private String directions = "", Commands = "";
+
 
     private MarsRover rover;
 
     @Override
     public MarsRover solve(int x, int y, String directions, String Commands , List<Obsticle> obsticleList) {
-        this.x = x;
-        this.y = y;
-        this.directions = directions;
-        this.Commands = Commands;
-
 
         Direction direction = Direction.set(directions);
         Coordinate coordinate = new Coordinate(x, y);
         rover = new MarsRover(coordinate, direction , obsticleList);
 
-        start();
+        start(Commands);
 
         return rover;
     }
 
 
-    public void start() {
+    public void start(String Commands) {
         for (char ch : Commands.toCharArray()) {
            if (! rover.makeCommand(ch )) break;
         }

@@ -34,7 +34,7 @@ public class Coordinate {
                 return new Coordinate(X , Y);
         }
 
-        //  return this;
+
     }
 
     Coordinate  stepBackword(Direction dir){

@@ -5,16 +5,14 @@ import org.example.obsticle.Obsticle;
 import java.util.List;
 
 public class MarsRover extends spaceObject{
-   // private  Coordinate coordinate;
-   // private Direction direction;
+
 
 
 List<Obsticle> obsticleList;
     public MarsRover(Coordinate coordinate , Direction direction , List<Obsticle> obsticleList ){
         super(coordinate , direction);
         this.obsticleList= obsticleList;
-       // this.coordinate = coordinate;
-        //this.direction = direction;
+
     }
     public Coordinate getCoordinate() {
         return coordinate;
