@@ -37,15 +37,17 @@ List<Obsticle> obsticleList;
                 return false;
             }
         }
-        else
+        else if (ch == 'B')
         {
-
             if(CanMove(new Coordinate(coordinate.getX()+1 , coordinate.getY()+1) , this.direction ))
                 this.coordinate =   MoveBackword();
             else {
-
                 return false;
             }
+        }
+        else {
+            System.out.println("INFALID INPUT");
+            return false;
         }
 
         return true;
