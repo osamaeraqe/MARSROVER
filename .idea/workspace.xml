@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b053938b-94cd-4c3e-819a-80fa1d406c61" name="Changes" comment="Second Commit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Rover/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Rover/Coordinate.java" afterDir="false" />
+    <list default="true" id="b053938b-94cd-4c3e-819a-80fa1d406c61" name="Changes" comment="THIRD Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Rover/MarsRover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Rover/MarsRover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Rover/spaceObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Rover/spaceObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/execution/Execution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/execution/Execution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/execution/executionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/execution/executionFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664459149446</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="THIRD Commit">
+      <created>1664459539839</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664459539839</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,7 +227,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="THIRD Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="THIRD Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -234,7 +240,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Rover/MarsRover.java</url>
-          <line>46</line>
+          <line>44</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
