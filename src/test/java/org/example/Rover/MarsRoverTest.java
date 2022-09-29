@@ -5,6 +5,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -14,6 +15,8 @@ class MarsRoverTest {
     List<Obsticle> obsticleList;
     @BeforeEach
     void setUp() {
+        obsticleList = new ArrayList<Obsticle>();
+
         obsticleList.add(new Obsticle(5, 5 , "WEST"));
         obsticleList.add(new Obsticle(2, 5 , "NORTH"));
         Coordinate coordinate = new Coordinate(2,3);
@@ -49,6 +52,13 @@ class MarsRoverTest {
         rover.MoveBackword();
 
         assertEquals(2 , rover.getCoordinate().getY());
+
+    }
+
+    @Test
+    void SHOULDmakeCommand() {
+        rover.makeCommand('F');
+       assertEquals(4,rover.getCoordinate().getY() );
 
     }
 }

@@ -32,7 +32,7 @@ List<Obsticle> obsticleList;
         else  if (ch == 'L') {RotateLeft();}
         else if (ch == 'F'){
 
-            if(CanMove(MoveForward() , this.direction ))
+            if(CanMove(new Coordinate(coordinate.getX()+1 , coordinate.getY()+1), this.direction ))
           this.coordinate =   MoveForward();
             else {
 
@@ -42,7 +42,7 @@ List<Obsticle> obsticleList;
         else
         {
 
-            if(CanMove(MoveBackword() , this.direction ))
+            if(CanMove(new Coordinate(coordinate.getX()+1 , coordinate.getY()+1) , this.direction ))
                 this.coordinate =   MoveBackword();
             else {
 
